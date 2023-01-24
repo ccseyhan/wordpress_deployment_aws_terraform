@@ -1,5 +1,4 @@
 #!/bin/bash
-hostnamectl set-hostname ${server-name}
 sudo yum update -y
 sudo amazon-linux-extras install docker -y
 sudo systemctl start docker
